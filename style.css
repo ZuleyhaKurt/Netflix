@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&family=Sorts+Mill+Goudy:ital@1&display=swap');
+
  *{box-sizing: border-box;}
  
  body{ 
@@ -5,10 +7,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
+    background-attachment: fixed;
 }
 .container{
    
-     margin: 15px 25px 10px 25px; 
+     max-width: 1240px;
+    
+     margin:auto;
+     margin-top: 30px;
+     margin-bottom: 30px;
      background-color: rgba(0, 0, 0, 0.20);
      display: flex;
      flex-direction: column;
@@ -23,13 +30,11 @@
 
 .form{
     background-color: rgba(0, 0, 0,0.75);
-    display: flex;
-    flex-direction: column;
-    gap:5px;
     padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 33%;
+    margin-bottom: 20px;
     
 
 }
@@ -52,9 +57,21 @@ button{
 }
 h1{
     color: white;
-    /* font-family: 'Lobster', cursive; */
+    font-family: 'Bowlby One SC', cursive;
 }  
 .button1{
     display: flex;
     justify-content: center;
+}
+
+.header p{
+    font-family: 'Sorts Mill Goudy', serif;                                
+}
+#name,
+#age,
+#email,
+#content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
 }
